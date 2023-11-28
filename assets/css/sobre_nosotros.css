@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+}
+.parrafo{
+   font-size: 18px;
+}
+.volver{
+    text-decoration: none;
+    font-size: 15px;
+}
+.container{
+    padding: 100px;
+    margin: 20px;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+  

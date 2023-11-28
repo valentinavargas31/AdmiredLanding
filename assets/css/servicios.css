@@ -1,0 +1,21 @@
+.titulo{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+.parrafo{
+   font-size: 20px;
+}
+.volver{
+    text-decoration: none;
+    font-size: 15px;
+}
+.containerr {
+    padding: 100px;
+    margin: 40px;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
