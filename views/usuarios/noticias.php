@@ -14,8 +14,7 @@
                         <a href="?c=principal&m=principal" class="volver">←Volver</a>
                         <div class="noticia-container">
                             <div class="imagen-noticia">
-                                <img src="https://w0.peakpx.com/wallpaper/654/174/HD-wallpaper-vertical-building.jpg"
-                                    alt="Imagen de la Noticia" class="imagen">
+                                <img src="https://w0.peakpx.com/wallpaper/654/174/HD-wallpaper-vertical-building.jpg" alt="Imagen de la Noticia" class="imagen">
                             </div>
                             <div class="noticia-contenido">
                                 <h1 class="noticia-titulo">APARTAMENTOS DISPONIBLES</h1>

@@ -32,7 +32,7 @@ function generarRecibo() {
     document.getElementById('reciboNombre').textContent = nombre;
     document.getElementById('reciboApellido')
 }
-                                    
+
 
 function generarRecibo() {
     const nombre = document.getElementById('nombre').value;
@@ -43,9 +43,9 @@ function generarRecibo() {
     document.getElementById('reciboApellido').textContent = apellido;
     document.getElementById('rec')
 }
-                                            
 
-                                            
+
+
 function generarRecibo() {
     const nombre = document.getElementById('nombre').value;
     const apellido = document.getElementById('apellido').value;
