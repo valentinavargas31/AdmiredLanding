@@ -39,8 +39,9 @@
 					<li><a href="?c=usuarios&m=noticias">Noticias</a></li>
 					<li><a href="?c=usuarios&m=cuota">Cuota de Administración</a></li>
 					<li><a href="?c=usuarios&m=reservas_areas">Reservas de Areas Comunes</a></li>
-					<li><a href="?c=dashboard&m=dashboard">Cerrar Sesión</a></li>
-					<li><a href="?c=usuarios&m=pqr">Pqr</a></li>
+					<a href="logout.php">Cerrar sesión</a> 
+					<li><a href="views/usuarios/pqr.php">Pqr</a></li>
+
 				</ul>
 
 				<form class="search-form">

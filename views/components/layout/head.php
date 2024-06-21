@@ -42,7 +42,7 @@
 					<li><a href="?c=informacion&m=noticias">Noticias</a></li>
 					<li><a href="?c=informacion&m=contactanos">Contactanos</a></li>
 					<li><a href="?c=informacion&m=galeria">Galeria</a></li>
-					<li><a href="views/login/index.php">Iniciar Sesión</a></li>
+					<li><a href="login.php">Iniciar Sesión</a></li>
 				</ul>
 
 				<form class="search-form">

@@ -1,32 +1,33 @@
-<link rel="stylesheet" href="./assets/css/pqr.css">
-<div class="content-page">
-    <div class="content">
+<?php
+// Conectar a la base de datos (ajusta los detalles según tu configuración)
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "base_proyecto";
 
-        <!-- Start Content-->
-        <div class="container-fluid">
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-            <!-- start page title -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box">
-                        <div class="pqr">
-                            <h4 class="page-title">Pqr</h4>
-                            <a href="?c=principal&m=principal" class="volver">←Volver</a>
-                            <form action="">
-                                <h3>REGISTRO DE PQRS</h3>
-                                <input type="date" name="fecha actual"><br>
-                                <input type="text" name="name" placeholder="name">
-                                <textarea class="tex" name="Escriba del PQRS" id="" cols="30" rows="1" placeholder="Escriba del PQRS"></textarea>
-                                <input type="button" value="ENVIAR PQRS" id="boton">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+// Verificar la conexión
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+
+// Recibir datos del formulario
+$tipo = $_POST['tipo'];
+// No hay necesidad de recibir 'nombre', 'email', 'mensaje' si no existen en la tabla
+// Se asume que estos datos no se están utilizando en la inserción a la tabla 'pqr'
 
 
-            <!-- end row -->
 
-        </div> <!-- end container-fluid -->
+// Preparar la consulta SQL para insertar datos
+$sql = "INSERT INTO pqr (tipo,)
+        VALUES ('$tipo')";
 
-    </div> <!-- end content -->
+if ($conn->query($sql) === TRUE) {
+    echo "Registro exitoso";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
