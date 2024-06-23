@@ -18,21 +18,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Conexión fallida: " . $conn->connect_error);
     }
 
-    // Consulta para verificar las credenciales
-    $sql = "SELECT * FROM usuarios WHERE EMAIL = ? AND CONTRASENA = ?";
+    // Consulta para obtener la contraseña encriptada del usuario
+    $sql = "SELECT * FROM usuarios WHERE EMAIL = ?";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ss", $email, $password);
+    $stmt->bind_param("s", $email);
     $stmt->execute();
     $result = $stmt->get_result();
 
     if ($result->num_rows == 1) {
-        // Usuario autenticado correctamente
-        $_SESSION['loggedin'] = true;
-        $_SESSION['email'] = $email;
-        header("Location: headd.php"); // Redirigir a la página de headd.php
-        exit;
+        $row = $result->fetch_assoc();
+        $hashedPassword = $row['CONTRASENA'];
+
+        // Verificar la contraseña utilizando password_verify
+        if (password_verify($password, $hashedPassword)) {
+            // Usuario autenticado correctamente
+            $_SESSION['loggedin'] = true;
+            $_SESSION['email'] = $email;
+            header("Location: headd.php"); // Redirigir a la página de headd.php
+            exit;
+        } else {
+            // Contraseña incorrecta
+            $error = "Correo electrónico o contraseña incorrectos";
+        }
     } else {
-        // Usuario no encontrado o credenciales incorrectas
+        // Usuario no encontrado
         $error = "Correo electrónico o contraseña incorrectos";
     }
 

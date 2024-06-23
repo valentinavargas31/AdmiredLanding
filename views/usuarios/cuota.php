@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./assets/css/cuotas.css">
+<link rel="stylesheet" href="/assets/cuotas.css">
 <div class="content-page">
     <div class="content">
 

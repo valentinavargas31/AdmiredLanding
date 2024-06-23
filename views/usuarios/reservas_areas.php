@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="./assets/css/principal.css">
 <link rel="stylesheet" href="./assets/css/galeria.css">
 <h3>Resevas de Areas Comunes</h3>
-<a href="?c=principal&m=principal" class="volver">←Volver</a>
+<a href="index.php" class="volver">←Volver</a>
 <section class="container top-products">
 	<h1 class="heading-1">RESERVAS DE AREAS COMUNES</h1>
 	<div class="container-products">
