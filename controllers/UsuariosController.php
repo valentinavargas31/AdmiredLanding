@@ -17,8 +17,8 @@ class UsuariosController {
         require_once('views/components/layout/footer.php');
      }
      public function noticias(){
-      require_once('views/components/layout/headd.php');
-      require_once('views/usuarios/noticias.php');
+      require_once('views/components/layout/head.php');
+      require_once('views/informacion/noticias.php');
       require_once('views/components/layout/footer.php');
    }
      

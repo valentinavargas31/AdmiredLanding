@@ -45,12 +45,7 @@
 					<li><a href="login.php">Iniciar Sesión</a></li>
 				</ul>
 
-				<form class="search-form">
-					<input type="search" placeholder="Buscar..." />
-					<button class="btn-search">
-						<i class="fa-solid fa-magnifying-glass"></i>
-					</button>
-				</form>
+				
 			</nav>
 		</div>
 	</header>

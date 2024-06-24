@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="./assets/css/sobre_nosotros.css">
-<h4>sobre nosotros</h4>
+<link rel="stylesheet" href="assets/css/sobre_nosotros.css">
 <a href="?c=dashboard&m=dashboard" class="volver">←Volver</a>
 <div class="container">
     <div class="row">

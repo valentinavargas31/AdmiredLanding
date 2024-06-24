@@ -5,41 +5,11 @@
 	<div class="content-banner">
 		<H2>COMODIDADES</H2>
 		<p>PARA TU HOGAR Y DE TU FAMILIA</p>
-		<a href="sobre_nosotros.php">saber mas</a>
+		
 	</div>
 </section>
 
-<main class="main-content">
-	<section class="container container-features">
-		<div class="card-feature">
-			<i class="fa-solid fa-plane-up"></i>
-			<div class="feature-content">
-				<span>Reservas De Areas Comunes</span>
-				<p>Desde $150.000</p>
-			</div>
-		</div>
-		<div class="card-feature">
-			<i class="fa-solid fa-wallet"></i>
-			<div class="feature-content">
-				<span>Apartamentos En arriendo </span>
-				<p>Desde 800.000</p>
-			</div>
-		</div>
-		<div class="card-feature">
-			<i class="fa-solid fa-gift"></i>
-			<div class="feature-content">
-				<span>Ventas De Apartamentos</span>
-				<p> Con 10% De Descuento</p>
-			</div>
-		</div>
-		<div class="card-feature">
-			<i class="fa-solid fa-headset"></i>
-			<div class="feature-content">
-				<span>Servicio al cliente</span>
-				<p>LLámenos al 232-456-7006</p>
-			</div>
-		</div>
-	</section>
+
 
 	<section class="container top-categories">
 		<h1 class="heading-1">ZONAS VERDES</h1>
@@ -50,10 +20,13 @@
 			<div> <img src="https://www.edifito.co/wp-content/uploads/2019/11/oasa.jpg" alt="" class="card-category category-expreso">
 
 			</div>
-			<div class="card-category category-capuchino">
-				<p>Mas contenido aqui ↓</p>
-				<span>Ver más</span>
+			<div> <img src="https://www.edifito.co/wp-content/uploads/2019/11/oasa.jpg" alt="" class="card-category category-expreso">
+
 			</div>
+			<div> <img src="https://www.edifito.co/wp-content/uploads/2019/11/oasa.jpg" alt="" class="card-category category-expreso">
+
+			</div>
+			
 		</div>
 	</section>
 
@@ -64,62 +37,19 @@
 			<div class="card-product">
 				<div class="container-img">
 					<img src="https://kshatriyastheclan.files.wordpress.com/2020/05/7-best-gyms.jpg?w=1200" alt="GIMNASIO" />
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
 				</div>
 				<div class="content-card-product">
-					<div class="stars">
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-regular fa-star"></i>
-					</div>
 					<h3>GYM</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
 					<p class="price">$50.000 <span>$70.000</span></p>
-
 				</div>
 			</div>
 			<!-- AREA 2 -->
 			<div class="card-product">
 				<div class="container-img">
-					<img src="https://www.dimensionvertical.com/images/NOTICIAS_2020/piscinas-en-copropiedades-1.jpg" alt="PISCINA" />
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCJQJyh5dnZshnzGWYkQi3_91-MUSnAl66A&s" alt="PISCINA" />
 				</div>
 				<div class="content-card-product">
-					<div class="stars">
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-regular fa-star"></i>
-					</div>
 					<h3>PISCINA</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
 					<p class="price">$180.000 <span>$200.000</span></p>
 				</div>
 			</div>
@@ -187,6 +117,7 @@
 			</div>
 		</div>
 	</section>
+	<h3>SALON COMUNAL</h3>
 	<section class="gallery">
 		<img src="./assets/img/aptop1.jpeg" alt="Gallery Img1" class="gallery-img-1" /><img src="./assets/img/aptop2.jpeg" alt="Gallery Img2" class="gallery-img-2" /><img src="./assets/img/aptop7.jpeg" alt="Gallery Img3" class="gallery-img-3" /><img src="./assets/img/aptop4.jpeg" alt="Gallery Img4" class="gallery-img-4" /><img src="./assets/img/aptop6.jpeg" alt="Gallery Img5" class="gallery-img-5" />
 	</section>
@@ -313,7 +244,6 @@
 					<p>
 						Vía al cedro VI es un proyecto inmobiliario CLUB HOUSE en Cedritos, es un edificio Eco- amigable. ULTIMOS apartamentos se entregan con acabados , parqueadero y deposito en AGOSTO 2024!Tenemos apartamentos tipo loft y duplex! • Cuenta con energía solar para iluminación de todas las zonas comunes y parqueaderos. • Posee una planta para el tratamiento de agua lluvia, lo cual significa un ahorro de aproximadamente 30% en la tarifa del servicio de agua para los apartamentos. ROOFTOP VISTA 360 GRADOS/ CLUB HOUSE Financiación: 30% cuota inicial 70% crédito Método de pago: $10.000.000 de separación y 30% cuota inicial diferido en 11 meses
 					</p>
-					<div class="btn-read-more">Leer más</div>
 				</div>
 			</div>
 			<!-- anuncio 2 -->
@@ -333,9 +263,8 @@
 					<h3>APARTAMENTO EN VENTA</h3>
 					<span>2 septiembre 2023</span>
 					<p>
-						Cantabria está conformado por 680 unidades de vivienda distribuidas en 6 torres de 17 pisos: 2 de ellas de 8 apartamentos por piso y 4 de 6 apartamentos por piso, con apartamentos desde 72m2 de total de área construida hasta 102m2. Cantabria está ubicado al occidente de Bogotá en un sector privilegiado y de alta valorización, con excelentes facilidades de acceso gracias a su proximidad con las avenidas El Dorado, Ciudad de Cali y Boyacá, la disponibilidad de transporte de todo tipo, incluido Transmilenio, y su cercanía a opciones ... <!--de entretenimiento como el Centro Comercial Gran Estación, Salitre Plaza, Dorado Plaza y Hayuelos; alternativas de abastecimiento con Home Center y PriceSmart; instituciones de salud como La Clínica Colombia y La Cruz Roja Aeropuerto; y sitios de interés entre los cuales se encuentran el Aeropuerto Internacional El Dorado, Compensar, el Parque Simón Bolívar, Maloka y Salitre Mágico.
-							--></p>
-					<div class="btn-read-more">Leer más</div>
+						Cantabria está conformado por 680 unidades de vivienda distribuidas en 6 torres de 17 pisos: 2 de ellas de 8 apartamentos por piso y 4 de 6 apartamentos por piso, con apartamentos desde 72m2 de total de área construida hasta 102m2. Cantabria está ubicado al occidente de Bogotá en un sector privilegiado y de alta valorización, con excelentes facilidades de acceso gracias a su proximidad con las avenidas El Dorado, Ciudad de Cali y Boyacá, la disponibilidad de transporte de todo tipo, incluido Transmilenio, y su cercanía a opciones de entretenimiento como el Centro Comercial Gran Estación, Salitre Plaza, Dorado Plaza y Hayuelos; alternativas de abastecimiento con Home Center y PriceSmart; instituciones de salud como La Clínica Colombia y La Cruz Roja Aeropuerto; y sitios de interés entre los cuales se encuentran el Aeropuerto Internacional El Dorado, Compensar, el Parque Simón Bolívar, Maloka y Salitre Mágico.
+
 				</div>
 			</div>
 			<!--anuncio 3 -->
@@ -356,7 +285,6 @@
 					<span>27 agosto 2023</span>
 					<p>
 						2 Ascensores, shut de basuras, pisos de madera laminada, divisiones de baño, planta eléctrica en zonas comunes, granito natural en mesones (cocina y baños). Todos los aptos con balcón, terraza comunal ecológica, carpinteria tipo pizano, salón comunal, gas natural, golfito para niños, parque infantil. Vias de acceso: Calle 170, Av. Boyaca, Autopista Norte, a poca distancia de centro comercial: Santa Fé, Panamericana.</p>
-					<div class="btn-read-more">Leer más</div>
 				</div>
 			</div>
 		</div>

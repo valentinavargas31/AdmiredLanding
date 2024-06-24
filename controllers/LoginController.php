@@ -1,7 +1,7 @@
 <?php
 class LoginController {
-    public function index(){
-        require_once('views/login/index.php');
+    public function login(){
+        require_once('login.php');
      }
  
 }

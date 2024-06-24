@@ -10,8 +10,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box">
-                        <h4 class="page-title">Noticias</h4>
-                        <a href="?c=dashboard&m=dashboard" class="volver">←Volver</a>
+                        <h4 class="page-title">Noticias</h4>                
                         <div class="noticia-container">
                             <div class="imagen-noticia">
                                 <img src="https://w0.peakpx.com/wallpaper/654/174/HD-wallpaper-vertical-building.jpg" alt="Imagen de la Noticia" class="imagen">
